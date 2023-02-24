@@ -1,0 +1,12 @@
+body {
+  background: rgb(207, 207, 207);
+  font-family: arial;
+}
+h1 {
+  text-align: center;
+  color: yellow;
+}
+
+.branco {
+  color: red;
+}

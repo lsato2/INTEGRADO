@@ -1,0 +1,61 @@
+body {
+  font-family: arial, verdana, tahoma;
+  margin: 0;
+}
+
+header,
+footer {
+  width: 100%; /*largura */
+  background-color: white; /* trocar cor de fundo */
+  box-shadow: 1px 1px 25px #ccc;
+  padding: 10px; /* margem dentro do objeto */
+  box-sizing: border-box;
+}
+
+header a img {
+  margin-left: 15px;
+}
+
+header nav {
+  float: right;
+  margin-top: 30px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin: 15px;
+}
+
+header nav a:hover {
+  color: rgb(5, 97, 201);
+}
+
+.img {
+  width: 100%;
+}
+
+section {
+  width: 70%;
+  float: left;
+}
+
+aside {
+  width: 30%;
+  float: right;
+  margin-top: 60px;
+}
+
+section,
+aside {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.clearfix {
+  clear: both;
+}
+
+footer p {
+  text-align: center;
+}
