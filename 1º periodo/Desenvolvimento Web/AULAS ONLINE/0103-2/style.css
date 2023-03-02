@@ -1,0 +1,55 @@
+body {
+  background-color: #333;
+  font-family: tahoma;
+  color: yellow;
+}
+
+.logo {
+  text-align: center;
+}
+
+h1 {
+  color: #f00;
+  font-size: 36px;
+}
+
+i {
+  color: #f00;
+}
+
+.imagem_banner {
+  width: 100%;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+p {
+  font-family: arial, tahoma;
+  font-size: 18px;
+}
+
+.poster {
+  width: 350px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+a {
+  text-align: center;
+  color: #ff0;
+  background: #f00;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-align: center;
+  color: #ff0;
+  background: rgb(0, 0, 0);
+  padding: 10px;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
