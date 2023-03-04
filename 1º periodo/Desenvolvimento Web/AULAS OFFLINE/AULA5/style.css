@@ -60,14 +60,19 @@ footer p {
   text-align: center;
 }
 
-/*Para deixar site responsivo*/
+.banner {
+  display: none;
+}
+
+.desktop {
+  display: block;
+}
 
 @media (max-width: 420px) {
   header {
     text-align: center;
     display: inline-block;
   }
-
   header nav,
   section,
   aside {
@@ -75,5 +80,11 @@ footer p {
   }
   header nav a {
     margin: 5px;
+  }
+  .banner {
+    display: block;
+  }
+  .desktop {
+    display: none;
   }
 }
