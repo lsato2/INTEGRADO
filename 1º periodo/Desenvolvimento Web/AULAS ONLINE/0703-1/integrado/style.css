@@ -1,0 +1,64 @@
+body {
+  background-color: #f1f1f1;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+footer {
+  background-color: white;
+  /* sombra: esq>dir , cima>baixo , opaci , cor */
+  box-shadow: 2px 2px 8px #ccc;
+  padding: 10px;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav {
+  /* Joga os itens para direita */
+  float: right;
+  margin-top: 30px;
+  padding-top: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  font-weight: 500;
+}
+nav a:hover {
+  color: rgb(0, 0, 0);
+  font-weight: 550;
+}
+
+.logo {
+  margin: 10px;
+}
+
+section {
+  width: 70%;
+  float: left;
+}
+
+aside {
+  width: 30%;
+  float: right;
+}
+
+.img {
+  width: 100%;
+}
+
+section,
+aside {
+  padding: 15px;
+  /* retirar o padding do valor do objeto */
+  box-sizing: border-box;
+}
+
+footer p {
+  text-align: center;
+}
