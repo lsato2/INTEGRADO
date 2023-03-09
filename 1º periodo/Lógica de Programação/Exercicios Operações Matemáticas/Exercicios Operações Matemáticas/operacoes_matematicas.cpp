@@ -1,13 +1,15 @@
 #include <iostream>
+#include <math.h>
+using namespace std;
 
 int main(){
 
 	float teste123 = 2 + (8 / 5.0f);
 	
 
-	std::cout << "1) a: " << 2 + 3 * (4 / 2) << std::endl;
-	std::cout << "1) b: " << 9 + 3 * 2 << std::endl;
-	std::cout << "1) c: " << (9 + 3) * 2 << std::endl;
+	cout << "1) a: " << 2 + 3 * (4 / 2) << endl; //esse utiliza biblioteca
+	cout << "1) b: " << 9 + 3 * 2 << endl;
+	cout << "1) c: " << (9 + 3) * 2 << endl;
 	std::cout << "1) d: " << (3-(5*4))/5.0f << std::endl;
 	std::cout << "1) e: " << 3+(7*pow(2,5)) << std::endl;
 	std::cout << "1) f: " << sqrt(2 + (8 / 5.0f)) << std::endl;
