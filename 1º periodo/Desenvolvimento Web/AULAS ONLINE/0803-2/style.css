@@ -2,15 +2,20 @@ body {
   margin: 0;
   font-family: poppins;
   background-color: #666;
+  color: white;
 }
 
 header,
 footer {
   width: 100%;
   background-color: #333333;
-  box-shadow: 2px 2px 20px #fff;
+  box-shadow: 2px 2px 20px rgb(0, 0, 0);
   box-sizing: border-box;
   display: inline-block;
+}
+
+header {
+  margin: 0 0 40px 0px;
 }
 
 header img {
@@ -36,9 +41,11 @@ header nav a:hover {
   padding: 10px;
 }
 
-h2 {
+h2,
+p {
   color: white;
-  margin: 60px 0 0 15px;
+  margin: 20px;
+  /* margin: 60px 0 0 15px; */
 }
 
 section {
@@ -64,6 +71,14 @@ aside {
 .grid img {
   width: 100%;
   border: 5px solid white;
+}
+
+.banner {
+  width: 100%;
+  margin-top: 40px;
+  border: 5px solid white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px #000;
 }
 
 .poster {
